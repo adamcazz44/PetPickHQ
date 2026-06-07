@@ -1,6 +1,6 @@
 # 🐾 Pet Pick HQ
 
-An independent, reader-supported landing page that **handpicks and price-checks the best pet products**, then links each one out to whichever retailer has the best price — Amazon, Chewy, PetSmart, Petco, or Hollywood Feed. Every product link is an **affiliate link**.
+An independent, reader-supported landing page that **handpicks and price-checks the best pet products**, then links each one out to whichever retailer has the best price — Amazon, Chewy, PetSmart, or Petco. Every product link is an **affiliate link**.
 
 It's a marketing/curation site, not a store: we don't hold inventory or process checkout. Each product card surfaces multiple "Buy at [retailer]" buttons with prices and flags the lowest one.
 

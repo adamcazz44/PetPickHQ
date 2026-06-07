@@ -5,7 +5,6 @@ const RETAILERS = {
   chewy:    { name: "Chewy",          dot: "#1A6BB5" },
   petsmart: { name: "PetSmart",       dot: "#E0533D" },
   petco:    { name: "Petco",          dot: "#2C6FA6" },
-  hollywood:{ name: "Hollywood Feed", dot: "#4E8A5F" },
 };
 
 // Each product: prices keyed by retailer (some products aren't at every store).
@@ -14,7 +13,7 @@ const PRODUCTS = [
     id: "ortho-bed", cat: "beds", name: "OrthoCloud Memory-Foam Dog Bed",
     badge: "Best for seniors", why: "Joint-friendly foam that springs back — vet-approved for older or arthritic dogs.",
     rating: 4.8, reviews: 3120, ph: "dog bed",
-    prices: { chewy: 89.99, amazon: 94.50, petsmart: 99.00, hollywood: 92.00 },
+    prices: { chewy: 89.99, amazon: 94.50, petsmart: 99.00 },
   },
   {
     id: "salmon-food", cat: "food", name: "WildCatch Grain-Free Salmon Recipe",
@@ -38,7 +37,7 @@ const PRODUCTS = [
     id: "no-pull", cat: "walk", name: "EasyStride No-Pull Padded Harness",
     badge: "Best for walks", why: "Front-clip control without the choke. Padded chest panel won't rub on long hikes.",
     rating: 4.8, reviews: 6420, ph: "dog harness",
-    prices: { chewy: 32.99, amazon: 29.99, petsmart: 34.99, hollywood: 33.50 },
+    prices: { chewy: 32.99, amazon: 29.99, petsmart: 34.99 },
   },
   {
     id: "slow-bowl", cat: "food", name: "SteadyEats Stainless Slow Feeder",
@@ -56,7 +55,7 @@ const PRODUCTS = [
     id: "dental-chew", cat: "health", name: "FreshBite Dental Chew Sticks",
     badge: "Vet favorite", why: "Ridged texture scrapes plaque while they gnaw. Genuinely fresher breath in two weeks.",
     rating: 4.6, reviews: 7330, ph: "dental chews",
-    prices: { chewy: 24.99, amazon: 26.49, petco: 27.99, hollywood: 25.00 },
+    prices: { chewy: 24.99, amazon: 26.49, petco: 27.99 },
   },
   {
     id: "calm-hoodie", cat: "health", name: "CalmWrap Anxiety Comfort Vest",
